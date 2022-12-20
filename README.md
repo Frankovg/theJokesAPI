@@ -57,13 +57,18 @@
 ## Setup
 1- Create the database with the file jokesapi.sql.
 <br/>
+<br/>
 2- Copy the file .env provided in '/server' and set your database USER and PASS. 
+<br/>
 <br/>
 3- Open your terminal and go to the '/server' folder and type 'npm install' to install the dependencies from the package.json. 
 <br/>
+<br/>
 4- Run the server by typing 'npm start'.
 <br/>
+<br/>
 5- Go to the '/client' folder and repeat 'npm install' following of 'npm start'. The app will be open automatically in your browser.
+<br/>
 <br/>
 6- Enjoy and have fun!
 
