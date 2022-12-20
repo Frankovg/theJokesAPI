@@ -6,7 +6,7 @@
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
-* [Screen sizes tested](#responsive)
+* [Screen sizes tested](#screen-sizes-tested)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
 * [Contact](#contact)
@@ -14,7 +14,7 @@
 
 ## General Information
 - You can find many jokes in this app. 
-- You can rank the jokes you most like.
+- You can rank the jokes you like the most.
 - You can upload as many jokes as you want.
 
 
@@ -70,4 +70,5 @@
 
 ## Contact
 Created by [Franco Amoroso](https://www.linkedin.com/in/francoamoroso/) - feel free to contact me!
+<br/>
 Take a look to my new [Web Portfolio](https://www.franamoroso.com/). 
