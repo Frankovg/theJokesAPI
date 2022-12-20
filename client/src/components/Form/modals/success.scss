@@ -1,0 +1,25 @@
+@import "../../../variables";
+
+.modal-header {
+  justify-content: center !important;
+  .modal-title {
+    padding: 0px !important;
+  }
+}
+.modal-body {
+  text-align: center;
+  font-size: $font-size-btn;
+}
+.modal-footer {
+  .close-btn {
+    background: rgb(165, 213, 93);
+    border: $border !important;
+    --bs-btn-active-bg: greenyellow;
+    --bs-btn-active-color: $black;
+  }
+  .close-btn:hover {
+    border-color: $black;
+    background: greenyellow;
+    color: $black;
+  }
+}

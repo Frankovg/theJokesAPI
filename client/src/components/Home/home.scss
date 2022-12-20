@@ -1,0 +1,15 @@
+@import "../../variables";
+
+.sketch {
+  padding-top: $font-size-btn;
+  .logo {
+    width: 213px;
+  }
+  @include min-720 {
+    @include paper-bg;
+    width: 720px;
+    min-height: 800px;
+    padding-top: 3rem;
+    padding-inline: 3rem;
+  }
+}

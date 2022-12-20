@@ -1,0 +1,93 @@
+@import "../../../variables";
+
+.modal {
+  --bs-modal-width: 680px !important;
+  --bs-modal-footer-border-color: transparent !important;
+  --bs-modal-header-border-color: transparent !important;
+}
+.modal-content {
+  border: $border !important;
+  .modal-header {
+    border-bottom: none !important;
+    padding-block: 0px !important;
+    .btn-close {
+      filter: $black-filter !important;
+      opacity: 1;
+    }
+    .modal-title.h4 {
+      padding-left: 5rem;
+      font-size: 3rem !important;
+    }
+  }
+}
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .form-control,
+  .form-select {
+    border: $border !important;
+  }
+  .form-control {
+    overflow-y: hidden;
+    height: 200px !important;
+    padding-top: $font-size-btn !important;
+  }
+  @include min-720 {
+    .form-control {
+      height: 150px !important;
+    }
+  }
+  .form-select {
+    height: 4.4rem !important;
+  }
+  .form-control:focus,
+  .form-select:focus {
+    outline: transparent !important;
+    box-shadow: none;
+    z-index: 1 !important;
+  }
+  label,
+  .form-control,
+  .form-select {
+    font-size: $font-size-btn;
+  }
+}
+.modal-footer {
+  border-top: none !important;
+  padding-block: 0px !important;
+  justify-content: center !important;
+  gap: 1rem;
+  @include min-720 {
+    gap: 80px;
+  }
+  button {
+    color: $black;
+    @include btn-xl;
+  }
+  .cancel-btn {
+    background: #fea4a4;
+    border: $border !important;
+    --bs-btn-active-bg: #f97070;
+    --bs-btn-active-color: white;
+  }
+  .cancel-btn:hover {
+    background: #f97070;
+    border: $border;
+  }
+  .button-add {
+    background: #f7a4fe;
+    border: $border !important;
+    --bs-btn-active-bg: #e55df1;
+    --bs-btn-active-color: white;
+  }
+  .button-add:hover {
+    background: #e55df1;
+    border: $border;
+  }
+  .btn:disabled {
+    border-color: $grey;
+    color: $grey;
+    background-color: transparent;
+  }
+}

@@ -1,0 +1,44 @@
+@import "../../../variables";
+
+.search-btn {
+  .form-control,
+  .btn {
+    border: none !important;
+    outline: $border;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .form-control {
+    background-color: transparent !important;
+    border-radius: $border-radius 0px 0px $border-radius !important;
+    font-size: $font-size-btn;
+    padding-block: 0px;
+  }
+  .form-control:focus,
+  .btn:focus {
+    outline: $border !important;
+    box-shadow: none;
+    z-index: 1 !important;
+  }
+  .btn {
+    background-color: #ffd954;
+    --bs-btn-active-bg: #ebf713;
+    --bs-btn-active-color: $black;
+    border-radius: 0px $border-radius $border-radius 0px;
+    color: $black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    z-index: 9000;
+    padding: 0px;
+    width: 80px;
+    @include transition;
+  }
+  .btn:hover {
+    background-color: #ebf713;
+    color: $black;
+    span {
+      zoom: $zoom;
+    }
+  }
+}

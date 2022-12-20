@@ -1,0 +1,95 @@
+@import "../../../variables";
+
+.show-jokes {
+  .joke-txt-bx {
+    height: 300px;
+    .joke-type-txt {
+      font-style: normal;
+      font-size: 24px;
+      line-height: 26px;
+    }
+    .joke-txt {
+      font-style: normal;
+      font-size: $font-size-btn;
+      line-height: 35px;
+      margin-bottom: 2rem;
+      color: $black;
+    }
+    span {
+      color: rgb(226, 67, 67);
+    }
+  }
+  button {
+    @include btns;
+    color: $black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+    width: 202.63px;
+    max-width: 202.63px;
+  }
+  .punchline-btn {
+    background: #54ffff;
+    @include transition;
+    --bs-btn-active-bg: #54ffff;
+    --bs-btn-active-color: $black;
+  }
+  .punchline-btn:hover {
+    background-color: #06ffcd;
+    color: $black;
+  }
+  .punchline-btn-disabled:disabled {
+    background-color: transparent !important;
+    border: $border-grey !important;
+    color: $grey;
+  }
+  .next-btn {
+    background: #54ffc1;
+    --bs-btn-active-bg: #54ffc1;
+    --bs-btn-active-color: $black;
+  }
+  .next-btn:hover {
+    background-color: #54ff54;
+    color: $black;
+  }
+  .btn-primary {
+    --bs-btn-color: $black !important;
+    --bs-btn-hover-color: $black !important;
+  }
+  .like-btn {
+    border: none !important;
+    background-color: transparent;
+    padding-inline: 0px;
+    color: $black;
+    --bs-btn-active-color: $black;
+    @include transition;
+    .likes,
+    .like-txt {
+      border: $border;
+      padding-inline: 2rem;
+    }
+    .likes {
+      width: 80px;
+      background: #a4e8fe;
+      border-right: none;
+      border-radius: $border-radius 0px 0px $border-radius;
+    }
+    .like-txt {
+      width: 122.63px;
+      border-radius: 0px $border-radius $border-radius 0px;
+      background: #ffd954;
+    }
+    .like-txt:hover {
+      background: #ffb554;
+    }
+  }
+  .like-btn:disabled {
+    opacity: 1;
+    color: $black;
+    .likes {
+      background: #b1fea4;
+    }
+    .like-txt {
+      background: white;
+    }
+  }
+}

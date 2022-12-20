@@ -1,0 +1,55 @@
+$black: rgb(28, 28, 28);
+$grey: rgb(105, 104, 104);
+$border: 4px solid $black;
+$border-grey: 4px solid $grey;
+$border-radius: 7px;
+$font-size-btn: 1.7rem;
+$font-size-20: 20px;
+$font-size-menu-mobile: 2.5rem;
+$zoom: 1.2;
+$black-filter: brightness(0) saturate(100%);
+
+@mixin paper-bg {
+  background: url("../../assets/img/sketch.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@mixin zeroStart {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin transition {
+  transition: 0.3s ease-in-out;
+}
+
+@mixin btns {
+  border: $border !important;
+  border-radius: $border-radius;
+  padding-inline: 2rem;
+  padding-block: 0px;
+  font-style: normal;
+  font-size: $font-size-btn;
+  line-height: 35px;
+}
+
+@mixin btn-xl {
+  font-style: normal;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  height: 83px;
+  width: 151px;
+  margin-bottom: $font-size-btn;
+  border: $border;
+  border-radius: $border-radius;
+  margin-inline: 0px;
+}
+
+@mixin min-720 {
+  @media only screen and (min-width: 700px) {
+    @content;
+  }
+}

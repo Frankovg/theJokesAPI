@@ -1,0 +1,72 @@
+@import "./variables";
+
+@font-face {
+  font-family: "KidDOS";
+  src: url(./assets/fonts/KIdDOS-Regular.ttf);
+  font-weight: 400;
+}
+
+* {
+  @include zeroStart;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./assets/img/paper.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  position: relative;
+  color: $black !important;
+  font-family: "KidDOS", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @include zeroStart;
+    line-height: normal;
+  }
+  p,
+  a,
+  li,
+  button,
+  ul {
+    @include zeroStart;
+    line-height: normal;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  input:focus,
+  textarea:focus,
+  select:focus {
+    outline: none;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
