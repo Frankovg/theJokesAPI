@@ -39,19 +39,19 @@
 
 
 ## Screenshots
-![Example screenshot](./public/screenshots/screenshot1.png)
+![UX/UI Figma](screenshots/figma.png)
 <br/>
 <br/>
-![Example screenshot](./public/screenshots/screenshot2.png)
+![Main](screenshots/main.png)
 <br/>
 <br/>
-![Example screenshot](./public/screenshots/screenshot4.png)
+![Search](screenshots/search.png)
 <br/>
 <br/>
-![Example screenshot](./public/screenshots/screenshot5.png)
+![Mobile](screenshots/mobile.png)
 <br/>
 <br/>
-![Example screenshot](./public/screenshots/screenshot3.png)
+![Add jokes](screenshots/add.png)
 
 
 ## Setup
