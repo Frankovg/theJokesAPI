@@ -67,7 +67,7 @@
 4- Run the server by typing 'npm start'.
 <br/>
 <br/>
-5- Go to the '/client' folder and repeat 'npm install' following of 'npm start'. The app will be open automatically in your browser.
+5- Go to the '/client' folder and repeat 'npm install' followed by 'npm start'. The app will be open automatically in your browser.
 <br/>
 <br/>
 6- Enjoy and have fun!
@@ -76,4 +76,4 @@
 ## Contact
 Created by [Franco Amoroso](https://www.linkedin.com/in/francoamoroso/) - feel free to contact me!
 <br/>
-Take a look to my new [Web Portfolio](https://www.franamoroso.com/). 
+Take a look at my new [Web Portfolio](https://www.franamoroso.com/). 
